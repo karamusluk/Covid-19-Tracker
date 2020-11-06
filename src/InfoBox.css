@@ -1,0 +1,44 @@
+.infoBox {
+  flex: 1;
+  cursor: pointer;
+  -webkit-transition: -webkit-transform 0.3s ease-out !important;
+  -moz-transition: -moz-transform 0.3s ease-out !important;
+  -o-transition: -o-transform 0.3s ease-out !important;
+  transition: transform 0.3s ease-out !important;
+}
+
+.infoBox:not(:last-child) {
+  margin-right: 10px;
+}
+
+.infoBox__cases {
+  color: #cc1034;
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.infoBox__total {
+  color: #6c757d;
+  font-weight: 700 !important;
+  font-size: 0.8rem !important;
+  margin-top: 15px !important;
+}
+
+.infoBox--cases {
+  border-top: 10px solid #cc1034;
+}
+.infoBox--recovered {
+  border-top: 10px solid #7dd71d;
+}
+.infoBox--deaths {
+  border-top: 10px solid #fb4443;
+}
+
+.infoBox:hover {
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2) !important;
+  -moz-transform: scale(1.03) !important;
+  -webkit-transform: scale(1.03) !important;
+  -o-transform: scale(1.03) !important;
+  transform: scale(1.03) !important;
+}
