@@ -2,6 +2,8 @@
 
 This project is basically using disease.sh Public API to visualize the total cases, recoveries and deaths.
 
+![Single Page](/screenshots/main.png "Single Page View")
+
 ## Setup
 
 Run following command to start in development mode.
